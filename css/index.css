@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: Kanit;
+    background-color: rgb(39, 39, 39) ;
+}
+
+
+.first_page .contacts {
+    margin-top: 10vh;
+}
+
+.first_page .contacts .itens{
+    height: 20%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+
+.first_page .contacts .itens .icon{
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    filter: drop-shadow( 0 0 10px rgb(5, 230, 247));
+}
+
+.first_page .contacts .itens .icon:hover{
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow( 0 0 10px white);
+}
+
+
+.first_page{
+    background-color: rgb(39, 39, 39);
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.first_page .title{
+    width: 80%;
+    margin-top: 30vh;
+}
+
+.first_page h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 200;
+}
+
+.first_page .title .title_animation{
+    font-size: 40px;
+    background: linear-gradient(270deg, rgb(5, 230, 247) 0%, rgb(246, 248, 248) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    
+}
+
+
+.div_seta{
+    margin: 10vh;
+}
+
+.div_seta img{
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow( 0 0 10px rgb(5, 230, 247));
+
+}
+
+.apresentation_page{
+    background-color: rgb(39, 39, 39);
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.apresentation_page .div_img{
+    /* margin-top: 5vh; */
+}
+
+.apresentation_page .div_img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.apresentation_page .div_apresentation{
+    width: 80%;
+    border-left: 0.5px solid rgb(5, 230, 247);
+    border-bottom: 0.5px solid rgb(5, 230, 247);
+    padding: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.apresentation_page .div_apresentation h1{
+    font-size: 35px;
+    background: linear-gradient(270deg, rgb(5, 230, 247) 0%, rgb(246, 248, 248) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    /* margin: 20px; */
+}
+
+.apresentation_page .div_apresentation p{
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+    font-weight: 100;
+}
+
+.apresentation_page .div_apresentation ul li p{
+    color: rgb(5, 230, 247);
+}
+
+.conhecimentos_secundarios{
+    color: rgb(5, 230, 247);
+}
+
+
+
+.projects_section{
+    background-color: rgb(39, 39, 39);
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projects_section .title{
+    margin: 20px;
+}
+
+.projects_section .title h1{
+    font-size: 35px;
+    background: linear-gradient(270deg, rgb(5, 230, 247) 0%, rgb(246, 248, 248) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.projects_section .container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.projects_section .container .card{
+    width: 80%;
+    height: 170px;
+    /* background-color: rgb(75, 74, 74); */
+    background-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 0.7px solid rgb(5, 230, 247);
+    padding: 20px;
+}
+
+.projects_section .container .card .title_card{
+    display: flex;
+    justify-content: left;
+}
+
+.projects_section .container .card h1{
+    margin: 10px;
+    /* margin-right: 120px; */
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+
+}
+
+.projects_section .container .card section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.projects_section .container .card section div{
+    width: 15%;
+    border-radius: 20px;
+    border: 0.7px solid rgb(5, 230, 247);
+    padding: 20px;
+    background-color: transparent;
+    margin: 5px;
+
+}
+
+.projects_section .container .card section div p{
+    color: white;
+    font-weight: 100;
+}
+
+.projects_section .container .card button {
+    width: 100px;
+    height: 36px;
+    background-color: transparent;
+    margin: 8px;
+    filter: drop-shadow( 0 0 5px rgb(5, 230, 247));
+    /* margin-left: 140px; */
+    border-radius: 40px;
+    border: 0.3px solid rgb(5, 230, 247);
+}
+
+.projects_section .container .card button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+@media (min-width: 800px){
+    .first_page .contacts .itens .icon{
+        margin: 20px;
+    }
+
+    .apresentation_page .div_apresentation{
+        width: 60%;
+        padding: 18px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+
+    .apresentation_page .div_img img{
+        width: 370px;
+        height: 370px;
+    }
+
+    .apresentation_page .div_apresentation p{
+        font-size: 20px;
+    }
+
+    .projects_section .container{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .projects_section .container .card{
+        width: 40%;
+        margin: 10px;
+    }
+}
+
+
+
+
+
+@media (min-width: 900px){
+    .apresentation_page{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .apresentation_page .div_apresentation{
+        width: 40%;
+        margin: 30px;  
+    }
+
+    .apresentation_page .div_apresentation p{
+        font-size: 20px;
+    }
+}
+
+
+
+
