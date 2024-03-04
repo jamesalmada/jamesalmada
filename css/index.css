@@ -60,7 +60,8 @@ body{
 
 .first_page .title .title_animation{
     font-size: 40px;
-    color: rgb(5, 230, 247);
+    background: linear-gradient(270deg, rgb(5, 230, 247) 0%, rgb(246, 248, 248) 102.13%) text;
+    -webkit-text-fill-color: transparent;
     position: relative;
     
 }
